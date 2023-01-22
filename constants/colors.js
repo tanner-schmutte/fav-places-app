@@ -7,4 +7,5 @@ export const Colors = {
     purple: "darkslateblue",
     errorRed: "#f13a59",
     white: "#fff",
+    grey: "#ccc",
 };
