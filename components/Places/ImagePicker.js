@@ -60,7 +60,9 @@ function ImagePicker() {
     return (
         <View>
             <View style={styles.imagePreview}>{imagePreview}</View>
-            <OutlinedButton  onPress={takeImageHandler} icon="camera">Take Photo</OutlinedButton>
+            <OutlinedButton onPress={takeImageHandler} icon="camera">
+                Take Photo
+            </OutlinedButton>
         </View>
     );
 }
@@ -80,5 +82,6 @@ const styles = StyleSheet.create({
     image: {
         width: "100%",
         height: "100%",
+        borderRadius: 10,
     },
 });
