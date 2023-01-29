@@ -6,7 +6,7 @@ import AllPlaces from "./screens/AllPlaces";
 import AddPlace from "./screens/AddPlace";
 import Map from "./screens/Map";
 import IconButton from "./components/UI/IconButton";
-import { Colors } from "./constants/colors";
+import { Colors } from "./constants/Colors";
 
 const Stack = createNativeStackNavigator();
 
