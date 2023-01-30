@@ -18,7 +18,7 @@ export default Button;
 const styles = StyleSheet.create({
     button: {
         paddingHorizontal: 20,
-        padddingVertical: 10,
+        paddingVertical: 10,
         margin: 10,
         marginTop: 50,
         backgroundColor: Colors.purple,
@@ -35,6 +35,6 @@ const styles = StyleSheet.create({
     text: {
         textAlign: "center",
         fontSize: 18,
-        color: "white",
+        color: Colors.white,
     },
 });
